@@ -34,5 +34,7 @@ const web3 = new Web3(provider);
         console.log('new message:', newMessage);
     } catch (err) {
         console.error(err);
-    }    
-})();
+    }
+})().then(() => {
+    console.log('done');
+});
