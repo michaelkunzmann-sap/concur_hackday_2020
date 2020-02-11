@@ -1,0 +1,10 @@
+{
+  "name": "concur_hackday_2020",
+  "scripts": {
+    "truffle": "truffle"
+  },
+  "dependencies": {
+    "truffle": "^5.1.12",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
